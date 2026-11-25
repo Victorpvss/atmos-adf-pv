@@ -25,7 +25,7 @@
 			"location": {
 				"type": "HttpServerLocation",
 				"relativeUrl": {
-					"value": "@concat(dataset().city, '/', dataset().date, '?unitgroup=metric&key=', dataset().apiKey)",
+					"value": "@concat(dataset().city, '/', dataset().date, '?unitgroup=metric&include=days&key=', dataset().apiKey)",
 					"type": "Expression"
 				}
 			}
